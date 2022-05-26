@@ -10,7 +10,6 @@ public class MemoryServer {
     public static void main(String[] args) {
         long memoryBefore = Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory();
 
-        System.out.println("Насколько у нас была заполнена память ДО добавления объектов: " + memoryBefore);
         System.out.println("Общая память до добавления объектов: " + memoryBefore);
 
         int numbersN = 18758328;
